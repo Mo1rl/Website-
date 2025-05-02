@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f56a00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #444;
+    border: 1px solid #666;
+    color: white;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #f56a00;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e55700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+table th {
+    background-color: #333;
+}
+
+section#inventory {
+    background-color: #222;
+}
+
+section#sales {
+    background-color: #222;
+}
+
+section#summary {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}

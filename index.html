@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hustler</h1>
+        <p>Built for Champions</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inventory">إدارة المخزون</a></li>
+            <li><a href="#sales">تسجيل المبيعات</a></li>
+            <li><a href="#summary">الملخص</a></li>
+        </ul>
+    </nav>
+    <section id="inventory">
+        <h2>إدارة المخزون</h2>
+        <form id="addProductForm">
+            <label>اسم المنتج:</label>
+            <input type="text" id="productName" required>
+            <label>الكمية:</label>
+            <input type="number" id="quantity" required>
+            <label>سعر الوحدة:</label>
+            <input type="number" id="unitPrice" required>
+            <label>ملاحظة:</label>
+            <input type="text" id="productNote">
+            <button type="submit">إضافة منتج</button>
+        </form>
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>اسم المنتج</th>
+                    <th>الكمية</th>
+                    <th>سعر الوحدة</th>
+                    <th>الإجمالي</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+    <section id="sales">
+        <h2>تسجيل المبيعات</h2>
+        <form id="saleForm">
+            <label>رقم الموبايل:</label>
+            <input type="text" id="customerPhone" required>
+            <label>المنتج:</label>
+            <input type="text" id="saleProduct" required>
+            <label>الكمية:</label>
+            <input type="number" id="saleQuantity" required>
+            <button type="submit">تسجيل بيع</button>
+        </form>
+    </section>
+    <section id="summary">
+        <h2>الملخص</h2>
+        <div id="summaryData"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
